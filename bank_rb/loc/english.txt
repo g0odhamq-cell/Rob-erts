@@ -1,0 +1,27 @@
+{
+	"bank_rb" : "Rob-erts",
+	"heist_bank_rb" : "Rob-erts",
+	"heist_bank_rb_name" : "Rob-erts",
+	"heist_bank_rb_brief" : "Small bank in the suburbs. Hardly any security, but the café next door keeps the place full of customers all day.\n\nThe cash was delivered just recently, so the vault is stuffed. With the new security measures, the plan B only works if we open the vault without tripping the alarm. Then we move the bags to another spot and leave through the sewers.\n\nDon't count on it until that vault is open.",
+
+	"m_obj_1" : "Find and use the keycards",
+	"m_obj_1_desc" : "Find both keycards and insert each one into the panel.",
+
+	"m_obj_2" : "Wait for the timer",
+	"m_obj_2_desc" : "Wait for the time lock to open the way.",
+
+	"m_obj_3" : "Find the vault code",
+	"m_obj_3_desc" : "Find the vault code in the documents. Hurry, before the alarm goes off.",
+
+	"m_obj_4" : "Enter the code",
+	"m_obj_4_desc" : "Enter the code at the terminal by the vault.",
+
+	"m_obj_5" : "Take the bags",
+	"m_obj_5_desc" : "Carry as many bags as you can to the van.",
+
+	"m_obj_6" : "Time to go!",
+	"m_obj_6_desc" : "You can leave now, but the more loot you take, the better.",
+
+	"m_obj_7" : "Throw the bags over the fence",
+	"m_obj_7_desc" : "Throw the bags over the fence and your loot will be safe."
+}

@@ -1,0 +1,20 @@
+<generic_scriptdata type="table">
+	<entry key="editor_only" type="table">
+		<entry key="base_id" type="number" value="200000"/>
+		<entry key="editor_only" type="boolean" value="true"/>
+		<entry key="enabled" type="boolean" value="true"/>
+		<entry key="enabled_in_simulation" type="boolean" value="true"/>
+		<entry key="locked" type="boolean" value="false"/>
+		<entry key="name" type="string" value="editor_only"/>
+		<entry key="visible" type="boolean" value="true"/>
+	</entry>
+	<entry key="world" type="table">
+		<entry key="base_id" type="number" value="100000"/>
+		<entry key="editor_only" type="boolean" value="false"/>
+		<entry key="enabled" type="boolean" value="true"/>
+		<entry key="enabled_in_simulation" type="boolean" value="true"/>
+		<entry key="locked" type="boolean" value="false"/>
+		<entry key="name" type="string" value="world"/>
+		<entry key="visible" type="boolean" value="true"/>
+	</entry>
+</generic_scriptdata>

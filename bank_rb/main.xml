@@ -1,0 +1,93 @@
+<table min_lib_ver="5.1.0" name="bank_rb">
+	<AddFiles>
+		<texture force="true" path="assets/loadscreen"/>
+	</AddFiles>
+	<Localization default="english.txt" directory="loc">
+		<loc file="russian.txt" language="russian"/>
+		<loc file="english.txt" language="english"/>
+	</Localization>
+	<level ai_group_type="america" briefing_dialog="Play_pln_cs1_brf" id="bank_rb" intro_event="Play_pln_cs1_intro_01" max_bags="14" music="heist" repossess_bags="false" sniper_laser_distance="20000" team_ai_off="true" world_directory="levels/bank_rb">
+		<assets>
+			<asset name="ammo_bag"/>
+			<asset name="bodybags_bag"/>
+		</assets>
+		<outro_event>
+			<value_node value="Play_pln_cs1_end_01"/>
+			<value_node value="Play_pln_cs1_end_02"/>
+			<value_node value="Play_pln_cs1_end_03"/>
+		</outro_event>
+		<packages>
+			<value_node value="packages/narr_roberts"/>
+			<value_node value="levels/narratives/bain/roberts/world"/>
+			<value_node value="levels/narratives/bain/roberts/world_sounds"/>
+			<value_node value="levels/narratives/bain/roberts/world/world"/>
+			<value_node value="levels/narratives/bain/roberts/editor_only/editor_only"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<narrative briefing_event="pln_cs1_cbf_01" contact="bain" id="bank_rb" jc="40" load_screen="assets/loadscreen" region="street" stars="3">
+		<chain>
+			<table level_id="bank_rb" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="5000"/>
+			<value_node value="10000"/>
+			<value_node value="25000"/>
+			<value_node value="55000"/>
+			<value_node value="90000"/>
+			<value_node value="100000"/>
+			<value_node value="150000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="pln_cs1_cnc_01"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_jewel1"/>
+			<value_node value="cn_jewel2"/>
+			<value_node value="cn_jewel3"/>
+		</crimenet_videos>
+		<debrief_event>
+			<value_node value=""/>
+		</debrief_event>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1.2"/>
+			<value_node value="1.2"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="6500"/>
+			<value_node value="6500"/>
+			<value_node value="6500"/>
+			<value_node value="6500"/>
+			<value_node value="6500"/>
+			<value_node value="6500"/>
+			<value_node value="6500"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="55000"/>
+			<value_node value="110000"/>
+			<value_node value="275000"/>
+			<value_node value="550000"/>
+			<value_node value="700000"/>
+			<value_node value="700000"/>
+			<value_node value="700000"/>
+		</payout>
+	</narrative>
+</table>

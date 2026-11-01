@@ -1,0 +1,9 @@
+<table>
+	<objective description="m_obj_1_desc" id="m_obj_1" text="m_obj_1"/>
+	<objective description="m_obj_2_desc" id="m_obj_2" text="m_obj_2"/>
+	<objective description="m_obj_3_desc" id="m_obj_3" text="m_obj_3"/>
+	<objective description="m_obj_4_desc" id="m_obj_4" text="m_obj_4"/>
+	<objective amount="3" description="m_obj_5_desc" id="m_obj_5" text="m_obj_5"/>
+	<objective description="m_obj_6_desc" id="m_obj_6" text="m_obj_6"/>
+	<objective description="m_obj_7_desc" id="m_obj_7" text="m_obj_7"/>
+</table>

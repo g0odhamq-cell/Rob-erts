@@ -1,0 +1,8 @@
+<generic_scriptdata type="table">
+	<entry key="editor_only" type="table">
+		<entry key="file" type="string" value="editor_only/editor_only"/>
+	</entry>
+	<entry key="world" type="table">
+		<entry key="file" type="string" value="world/world"/>
+	</entry>
+</generic_scriptdata>
